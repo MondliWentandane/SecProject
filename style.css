@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(104, 55, 21);
+    align-content: center;
+    justify-content: center;
+}
+#layer1{
+    background-color: black;
+    padding-left: 60px;
+    max-width: 400px;
+    align-items: center;
+    border-style: solid;
+    border-width: medium;
+}
+hr{
+    background-color: black;
+}
+#flexer{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+}
+
+
