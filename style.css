@@ -1,8 +1,6 @@
 
 body{
     background-color: rgb(104, 55, 21);
-    align-content: center;
-    justify-content: center;
 }
 #layer1{
     background-color: black;
@@ -15,10 +13,22 @@ body{
 hr{
     background-color: black;
 }
+#theMain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
 #flexer{
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    background-color: brown;
+    border-radius: 10px;
+}
+#flexer2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(85, 156, 156);
+    border-radius: 10px;
 }
 h1{
     text-align: center;
